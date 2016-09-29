@@ -12,7 +12,7 @@ function createWindow() {
     // win.loadURL( `file://${__dirname}/index.html` );
     win.loadURL( 'file://' + __dirname + '/index.html' );
 
-    win.webContents.openDevTools();
+    // win.webContents.openDevTools();
     function closewin() {
         win = null;
     }
